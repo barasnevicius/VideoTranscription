@@ -7,5 +7,5 @@ export function stopLoading() {
 }
 
 export function loadingMessage(msg) {
-  document.documentElement.dataset.loadingMessage = msg
+  document.documentElement.dataset.message = msg
 }
